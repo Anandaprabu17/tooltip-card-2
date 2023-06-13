@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:320px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2,
+    .para1,
+    .para2,
+    .para3 {
+        padding-left: .2rem;
+    }
+
+    .link {
+        margin-left: 1rem;
+    }
+
+    .memberCard a {
+        left: 27%;
+        bottom: 64%;
+        padding: 5px 15px;
+    }
+
+    img {
+        width: 75%;
+    }
+
+    #cancel {
+        left: 45%;
+    }
+}
+
+@media (min-width:620px) {
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    h2,
+    .para1,
+    .para2,
+    .para3 {
+        padding-left: 3rem;
+    }
+
+    .link {
+        margin-left: 4rem;
+    }
+
+    .memberCard a {
+        left: 30%;
+        bottom: 58%;
+        padding: 10px 35px;
+    }
+
+    #cancel {
+        left: 33%;
+    }
+
+}
+
+@media (min-width:920px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    h2,
+    .para1,
+    .para2,
+    .para3 {
+        padding-left: 7rem;
+    }
+
+    .link {
+        margin-left: 9rem;
+    }
+
+    .memberCard a {
+        left: 20%;
+        bottom: 44%;
+        padding: 10px 35px;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    #cancel {
+        left: 32%;
+    }
+}
+
+
+.para4 {
+    width: 40%;
+}
+
+img {
+    border-radius: 20px 0 20px 0;
+}
+
+h2,
+.para1,
+.para3 {
+    padding-bottom: 10px;
+}
+
+.para2 {
+    padding-bottom: 20px;
+}
+
+img {
+    height: auto;
+    position: relative;
+}
+
+
+.link {
+    color: #000000;
+    border: 1px solid #ffc451;
+    background-color: #ffc451;
+    display: inline;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.memberCard a {
+    position: absolute;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    border: 1px solid rgba(92, 118, 141, 0.9);
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+
+}
+
+.toast-view {
+    position: relative;
+    display: none;
+}
+
+
+#cancel {
+    position: absolute;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.clip {
+    display: block;
+}
+
+.void {
+    background-color: #D1F2EB;
+}
